@@ -31,7 +31,7 @@ nginx_state: present
 # Options are 'nginx_repository' or 'os_repository'.
 # Only works if 'nginx_type' is set to 'opensource'.
 # Default is nginx_repository.
-nginx_install_from: nginx_repository
+nginx_install_from: os_repository
 
 # Choose where to fetch the NGINX signing key from.
 # Default is the official NGINX signing key host.
